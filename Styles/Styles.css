@@ -1,0 +1,228 @@
+/* styles.css */
+body {
+    font-family: 'Fantasy', sans-serif; /* Define uma fonte "fantasia" */
+    background-color: #102159;
+    color: #060505;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #130f52;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3.9em;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seções principais */
+main section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    font-family: 'Fantasy', sans-serif;
+    color: #333;
+    font-size: 1.8em;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Estrutura de Imagem Geral */
+.image-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    max-width: 10%;
+    margin: 20px 0;
+}
+
+.image-container img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+/* Estilo para a seção de Busca de Vídeos */
+#busca-videos {
+    margin-top: 30px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#busca-videos h2 {
+    font-family: 'Fantasy', sans-serif;
+    color: #333;
+    font-size: 1.8em;
+}
+
+#busca-videos form {
+    margin-top: 20px;
+}
+
+#busca-videos input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 1px solid #8b8989;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#busca-videos button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+#busca-videos button:hover {
+    background-color: #bdb8b8;
+}
+
+
+#busca-chatgpt {
+    margin-top: 30px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#busca-chatgpt h2 {
+    font-family: 'Fantasy', sans-serif;
+    color: #333;
+    font-size: 1.8em;
+}
+
+#busca-chatgpt form {
+    margin-top: 20px;
+}
+
+#busca-chatgpt input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 1px solid #8b8989;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#busca-chatgpt button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+#busca-chatgpt button:hover {
+    background-color: #bdb8b8;
+}
+
+
+#busca-instagram {
+    margin-top: 30px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#busca-instagram h2 {
+    font-family: 'Fantasy', sans-serif;
+    color: #333;
+    font-size: 1.8em;
+}
+
+#busca-instagram form {
+    margin-top: 20px;
+}
+
+#busca-instagram input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 1px solid #8b8989;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#busca-instagram button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+#busca-instagram button:hover {
+    background-color: #bdb8b8;
+}
